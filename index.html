@@ -953,9 +953,6 @@
                     var videoMob = document.getElementById("xee-bg-mob");
                     video.play();
                     videoMob.play();
-         
-                  
-         
                   
                     var audio = document.getElementById("xee-click");
                     var elem = document.documentElement;
@@ -984,17 +981,7 @@
                         if(clickCounter == 2){
                             cdMusic.play();
                         }
-                        
-                        if(isMobile){
-                               
-                  if (elem.requestFullscreen) {
-             elem.requestFullscreen();
-          } else if (elem.webkitRequestFullscreen) { /* Safari */
-             elem.webkitRequestFullscreen();
-          } else if (elem.msRequestFullscreen) { /* IE11 */
-             elem.msRequestFullscreen();
-          }
-                        }
+                       
                         
                         if (video.muted === false) {
                             audio.play();
